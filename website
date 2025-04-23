@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AZIautomate</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f5f5f7;
+      color: #1d1d1f;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 40px;
+      background: white;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #6e6e73;
+    }
+
+    .section {
+      max-width: 1200px;
+      margin: auto;
+      padding: 80px 20px;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      font-weight: 500;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 40px 30px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    .card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+
+    .card p {
+      color: #6e6e73;
+    }
+
+    .contact {
+      background: white;
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .contact h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .contact p {
+      font-size: 1.1rem;
+      color: #6e6e73;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: #6e6e73;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      .section-title {
+        font-size: 1.7rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>AZIautomate</h1>
+    <p>Smarter business through AI-driven automation.</p>
+  </header>
+
+  <section class="section">
+    <h2 class="section-title">Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Tier 1: Basic Agent</h3>
+        <p>Handles simple tasks like scheduling, FAQs, and basic CRM integration. Ideal for businesses getting started with automation.</p>
+      </div>
+      <div class="card">
+        <h3>Tier 2: Pro Agent</h3>
+        <p>Advanced workflows, lead qualification, real-time updates, and Zapier + API integrations. Great for scaling operations.</p>
+      </div>
+      <div class="card">
+        <h3>Tier 3: Elite Agent</h3>
+        <p>Custom-trained AI agents with NLP capabilities, voice, and full-stack automation. Tailored for enterprise-level businesses.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact">
+    <h2>Contact Us</h2>
+    <p>Email: hello@aziautomate.com</p>
+    <p>Phone: (123) 456-7890</p>
+    <p>Location: Based in NYC – serving clients globally</p>
+  </section>
+
+  <footer>
+    &copy; 2025 AZIautomate. All rights reserved.
+  </footer>
+
+</body>
+</html>
